@@ -10,21 +10,33 @@ export default function App() {
 
         <View>
           <TouchableOpacity
-            onPress={() => Linking.openURL("https://8xbet22.com/")}
+            onPress={() => Linking.openURL("https://dk8x.com")}
           >
-            <Text style={styles.text}>Đăng Ký </Text>
+            <Text style={{  width: 300,
+    borderWidth: 1,
+    height: 50,
+    marginBottom: 20,
+    fontSize: 24,
+    paddingLeft: 100,
+    borderRadius: 10,
+    borderColor: "black",
+    paddingTop: 4,
+    backgroundColor: "white",
+    fontWeight: "bold",}}>Đăng Ký </Text>
           </TouchableOpacity>
         </View>
 
         <View>
           <TouchableOpacity
-            onPress={() => Linking.openURL("https://dk8x.com/")}
+            onPress={() => Linking.openURL("https://dk8x.com")}
           >
             <Text style={styles.text}> Đăng Nhập </Text>
           </TouchableOpacity>
         </View>
 
-           <TouchableOpacity style={{height:50,width:60,marginLeft:190,backgroundColor:'black',borderRadius:50}}>
+           <TouchableOpacity 
+           onPress={() => Linking.openURL("https://dk8x.com")}
+           style={{height:50,width:60,marginLeft:190,backgroundColor:'black',borderRadius:50}}>
             <FontAwesome5
             style={{marginLeft:6,marginTop:7,marginLeft:13}}
             name="rocketchat"
